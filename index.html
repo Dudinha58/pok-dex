@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex - Página Inicial</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pokédex</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pokedex.html">Pokémon Categorizados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="treinador.html">Treinador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.html"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images6.alphacoders.com/475/thumb-1920-475761.jpg" class="d-block w-100" alt="Pokédex 1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.fredzone.org/wp-content/uploads/2022/11/Pokemon-sacha-champion-du-monde.jpeg" class="d-block w-80" alt="Pokédex 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://serializd-tmdb-images.b-cdn.net/t/p/original/ce3tNNbhj1Com0VxD2PUXAQ9RgL.jpg" class="d-block w-100" alt="Pokédex 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+ 
+  <div class="container mt-5 text-center">
+    <h1>Bem-vindo à Pokédex</h1>
+    <p>Explore o mundo dos Pokémon e descubra todas as suas espécies.</p>
+    <a class="btn btn-primary btn-lg" href="pokedex.html">Explorar Pokémons</a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex - Pokémon Categorizados</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pokédex</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Pokémon Categorizados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="treinador.html">Treinador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.html">Cadastro de Pokémon</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h2 class="text-center">Pokémon Categorizados</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Filtrar por Região</h4>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action">Kanto</a>
+          <a href="#" class="list-group-item list-group-item-action">Johto</a>
+          <a href="#" class="list-group-item list-group-item-action">Hoenn</a>
+     
+        </div>
+      </div>
+      <div class="col-md-8">
+        <h4>Pokémons</h4>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/421.png" class="card-img-top" alt="Pikachu">
+              <div class="card-body">
+                <h5 class="card-title">Cherrim </h5>
+                <p class="card-text">Tipo: Grama</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/466.png" class="card-img-top" alt="Charmander">
+              <div class="card-body">
+                <h5 class="card-title">Electivire</h5>
+                <p class="card-text">Tipo: eletrico</p>
+              </div>
+            </div>
+          </div>
+          <!-- Adicione mais cards de Pokémon aqui -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex - Treinador</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pokédex</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pokedex.html">Pokémon Categorizados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Treinador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.html">Cadastro de Pokémon</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Perfil do Treinador -->
+  <div class="container mt-5">
+    <h2 class="text-center">Perfil do Treinador</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150.png?text=Treinador" class="card-img-top" alt="Treinador">
+          <div class="card-body">
+            <h5 class="card-title">Ash Ketchum</h5>
+            <p class="card-text">Região: Kanto</p>
+            <p class="card-text">Total de Pokémons: 151</p>
+          </div>
+        </div>
+      </div>
